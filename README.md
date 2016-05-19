@@ -11,6 +11,10 @@ The client UI is currently unusable
 3. meteor
 
 It will then begin syncing the package data to a local mongo collection (may take a while). 
+Only the versions collection is synced - it can be queried like this in `meteor shell`:
+```
+  Data.Versions.findOne()
+```
 
 ## ToDo
 
