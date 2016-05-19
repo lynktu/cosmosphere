@@ -1,0 +1,38 @@
+<head>
+  <title>cosmosphere</title>
+</head>
+
+<body>
+  {{> layout}}
+</body>
+
+<template name="layout">
+  <div>
+    <div class="mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--scroll">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Cosmosphere</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation -->
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here -->
+          <form id='package-form'>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" id="sample3" />
+              <label class="mdl-textfield__label" for="sample3">Enter a package name...</label>
+            </div>
+            <br/>
+            <br/>
+            <input id='submit-pckge' type='submit' label='Search'>
+          </form>
+          <p>{{packageName}}</p>
+          <svg id="graph" width='960px' height='500px'></svg>
+        </div>
+      </main>
+    </div>
+  </div>
+</template>

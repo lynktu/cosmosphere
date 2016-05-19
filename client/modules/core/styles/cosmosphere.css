@@ -1,0 +1,35 @@
+/* CSS declarations go here */
+body {
+  background-color: #222222;
+  text-align: center;
+  color: aliceblue;
+}
+
+/* Forms */
+.mdl-textfield {
+  color: aliceblue;
+}
+
+.mdl-textfield__label {
+  color: aliceblue;
+}
+
+#submit-pckge {
+  margin-top: 50px;
+}
+
+/* Layout */
+.page-content {
+  padding-top: 50px;
+}
+
+
+
+.link {
+  stroke: #ccc;
+}
+
+.node text {
+  pointer-events: none;
+  font-size: 10px;
+}
