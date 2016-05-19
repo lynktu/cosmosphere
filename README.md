@@ -10,6 +10,8 @@ The client UI is currently unusable
 2. cd cosmosphere
 3. meteor
 
+It will then begin syncing the package data to a local mongo collection (may take a while). 
+
 ## ToDo
 
 - [ ] D3 Graphs
